@@ -1,0 +1,326 @@
+(pcb /Users/clothbot/Projects/github/clothbot/PeristalticHallStep/HallSwitchSensors.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2013-mar-25)-stable")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  34290 -50800  34290 -57785  43815 -67310  57785 -67310
+            67310 -57785  67310 -43815  57785 -34290  43815 -34290  34290 -43815
+            34290 -50800)
+    )
+    (plane GND (polygon F.Cu 0  57785 -57785  43815 -57785  43815 -43815  57785 -43815))
+    (plane +5V (polygon B.Cu 0  60325 -60325  41275 -60325  41275 -41275  60325 -41275))
+    (plane +5V (polygon F.Cu 0  50800 -38100  59055 -38100  63500 -42545  63500 -50800
+            63500 -59055  59055 -63500  50800 -63500  42545 -63500  38100 -59055
+            38100 -50800  38100 -42545  42545 -38100  50800 -38100))
+    (plane GND (polygon B.Cu 0  63500 -63500  59055 -63500  42545 -63500  38100 -63500
+            38100 -59055  38100 -42545  38100 -38100  42545 -38100  50800 -38100
+            59055 -38100  63500 -38100  63500 -42545  63500 -59055  63500 -63500))
+    (keepout "" (polygon B.Cu 0  61595 -52070  60325 -52070  60325 -49530  61595 -49530))
+    (keepout "" (polygon B.Cu 0  52070 -61595  49530 -61595  49530 -60325  52070 -60325))
+    (keepout "" (polygon B.Cu 0  41275 -52070  40005 -52070  40005 -49530  41275 -49530))
+    (keepout "" (polygon B.Cu 0  52070 -41275  49530 -41275  49530 -40005  52070 -40005))
+    (keepout "" (polygon F.Cu 0  61595 -52070  60325 -52070  60325 -49530  61595 -49530))
+    (keepout "" (polygon F.Cu 0  52070 -61595  49530 -61595  49530 -60325  52070 -60325))
+    (keepout "" (polygon F.Cu 0  41275 -52070  40005 -52070  40005 -49530  41275 -49530))
+    (keepout "" (polygon F.Cu 0  52070 -41275  49530 -41275  49530 -40005  52070 -40005))
+    (via "Via[0-1]_889:635_um" "Via[0-1]_889:0_um")
+    (rule
+      (width 254)
+      (clearance 254.1)
+      (clearance 254.1 (type default_smd))
+      (clearance 63.5 (type smd_smd))
+    )
+  )
+  (placement
+    (component SM0805
+      (place CO4 47244 -42418 front 270 (PN 10p))
+      (place CO3 42418 -54356 front 0 (PN 10p))
+      (place CO2 54356 -59182 front 90 (PN 10p))
+      (place CO1 59182 -47244 front 180 (PN 10p))
+      (place RHPD4 47244 -38862 front 270 (PN 0.0))
+      (place RHPD3 38862 -54356 front 0 (PN 0.0))
+      (place RHPD2 54356 -62738 front 90 (PN 0.0))
+      (place RHPD1 62738 -47244 front 180 (PN 0.0))
+      (place RHPU4 50800 -37084 front 180 (PN 50K))
+      (place RHPU3 37084 -50800 front 270 (PN 50K))
+      (place RHPU2 50800 -64516 front 0 (PN 50K))
+      (place RHPU1 64516 -50800 front 90 (PN 50K))
+      (place CHD1 60960 -54356 front 180 (PN 0.1u))
+      (place CHD2 54356 -40640 front 270 (PN 0.1u))
+      (place CHD3 40640 -47244 front 0 (PN 0.1u))
+      (place CHD4 47244 -60960 front 90 (PN 0.1u))
+    )
+    (component "SOT23-SPECIAL"
+      (place UHall1 60960 -50800 front 90 (PN A3213))
+      (place UHall2 50800 -60960 front 0 (PN A3213))
+      (place UHall3 40640 -50800 front 270 (PN A3213))
+      (place UHall4 50800 -40640 front 180 (PN A3213))
+    )
+    (component "SIL-3"
+      (place KH1 57150 -44450 front 225 (PN CONN_3))
+      (place KH2 57150 -57150 front 135 (PN CONN_3))
+      (place KH3 44450 -57150 front 45 (PN CONN_3))
+      (place KH4 44450 -44450 front 315 (PN CONN_3))
+    )
+    (component TO92H
+      (place K1 55880 -50800 back 180 (PN CONN_3))
+      (place K2 50800 -55880 back 90 (PN CONN_3))
+      (place K3 45720 -50800 back 0 (PN CONN_3))
+      (place K4 50800 -45720 back 270 (PN CONN_3))
+    )
+  )
+  (library
+    (image SM0805
+      (outline (path signal 99.06  -1524 -762  -1530.22 -801.245  -1548.26 -836.648  -1576.35 -864.745
+            -1611.76 -882.784  -1651 -889  -1690.24 -882.784  -1725.65 -864.745
+            -1753.74 -836.648  -1771.78 -801.245  -1778 -762  -1771.78 -722.755
+            -1753.74 -687.352  -1725.65 -659.255  -1690.24 -641.216  -1651 -635
+            -1611.76 -641.216  -1576.35 -659.255  -1548.26 -687.352  -1530.22 -722.755))
+      (outline (path signal 99.06  -508 -762  -1524 -762))
+      (outline (path signal 99.06  -1524 -762  -1524 762))
+      (outline (path signal 99.06  -1524 762  -508 762))
+      (outline (path signal 99.06  508 762  1524 762))
+      (outline (path signal 99.06  1524 762  1524 -762))
+      (outline (path signal 99.06  1524 -762  508 -762))
+      (pin Rect[T]Pad_889x1397_um 1 -952.5 0)
+      (pin Rect[T]Pad_889x1397_um 2 952.5 0)
+    )
+    (image "SOT23-SPECIAL"
+      (outline (path signal 78.74  -924.56 -299.72  -934.381 -361.727  -962.883 -417.664
+            -1007.28 -462.057  -1063.21 -490.559  -1125.22 -500.38  -1187.23 -490.559
+            -1243.16 -462.057  -1287.56 -417.664  -1316.06 -361.727  -1325.88 -299.72
+            -1316.06 -237.713  -1287.56 -181.776  -1243.16 -137.383  -1187.23 -108.881
+            -1125.22 -99.06  -1063.21 -108.881  -1007.28 -137.383  -962.883 -181.776
+            -934.381 -237.713))
+      (outline (path signal 78.74  1270 508  1270 -508))
+      (outline (path signal 78.74  -1333.5 508  -1333.5 -508))
+      (outline (path signal 78.74  1270 -508  -1333.5 -508))
+      (outline (path signal 78.74  -1333.5 508  1270 508))
+      (pin Rect[T]Pad_800.1x1000.76_um 2 0 1099.82)
+      (pin Rect[T]Pad_800.1x1000.76_um 3 952.5 -1099.82)
+      (pin Rect[T]Pad_800.1x1000.76_um 1 -952.5 -1099.82)
+    )
+    (image "SIL-3"
+      (outline (path signal 304.8  -3810 -1270  -3810 1270))
+      (outline (path signal 304.8  -3810 1270  3810 1270))
+      (outline (path signal 304.8  3810 1270  3810 -1270))
+      (outline (path signal 304.8  3810 -1270  -3810 -1270))
+      (outline (path signal 304.8  -1270 1270  -1270 -1270))
+      (pin Rect[A]Pad_1397x1397_um 1 -2540 0)
+      (pin Round[A]Pad_1397_um 2 0 0)
+      (pin Round[A]Pad_1397_um 3 2540 0)
+    )
+    (image TO92H
+      (outline (path signal 304.8  2540 2540  7620 2540))
+      (outline (path signal 304.8  7620 2540  7620 -2540))
+      (outline (path signal 304.8  7620 -2540  2540 -2540))
+      (outline (path signal 304.8  2540 -2540  2540 2540))
+      (outline (path signal 304.8  1270 1270  2540 1270))
+      (outline (path signal 304.8  -1270 0  2540 0))
+      (outline (path signal 304.8  1270 -1270  2540 -1270))
+      (pin Round[A]Pad_1270_um 2 -1270 0)
+      (pin Round[A]Pad_1270_um 1 1270 -1270)
+      (pin Round[A]Pad_1270_um 3 1270 1270)
+    )
+    (padstack Round[A]Pad_1270_um
+      (shape (circle F.Cu 1270))
+      (shape (circle B.Cu 1270))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1397_um
+      (shape (circle F.Cu 1397))
+      (shape (circle B.Cu 1397))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_800.1x1000.76_um
+      (shape (rect F.Cu -400.05 -500.38 400.05 500.38))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_889x1397_um
+      (shape (rect F.Cu -444.5 -698.5 444.5 698.5))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1397x1397_um
+      (shape (rect F.Cu -698.5 -698.5 698.5 698.5))
+      (shape (rect B.Cu -698.5 -698.5 698.5 698.5))
+      (attach off)
+    )
+    (padstack "Via[0-1]_889:635_um"
+      (shape (circle F.Cu 889))
+      (shape (circle B.Cu 889))
+      (attach off)
+    )
+    (padstack "Via[0-1]_889:0_um"
+      (shape (circle F.Cu 889))
+      (shape (circle B.Cu 889))
+      (attach off)
+    )
+  )
+  (network
+    (net +5V
+      (pins RHPU4-1 RHPU3-1 RHPU2-1 RHPU1-1 UHall1-1 UHall2-1 UHall3-1 UHall4-1 KH1-1
+        KH2-1 KH3-1 KH4-1 CHD1-1 CHD2-1 CHD3-1 CHD4-1 K1-1 K2-1 K3-1 K4-1)
+    )
+    (net /hall1
+      (pins RHPD1-2 UHall1-3 K1-3)
+    )
+    (net /hall2
+      (pins RHPD2-2 UHall2-3 K2-3)
+    )
+    (net /hall3
+      (pins RHPD3-2 UHall3-3 K3-3)
+    )
+    (net /hall4
+      (pins RHPD4-2 UHall4-3 K4-3)
+    )
+    (net /vho1
+      (pins CO1-1 RHPD1-1 RHPU1-2 KH1-3)
+    )
+    (net /vho2
+      (pins CO2-1 RHPD2-1 RHPU2-2 KH2-3)
+    )
+    (net /vho3
+      (pins CO3-1 RHPD3-1 RHPU3-2 KH3-3)
+    )
+    (net /vho4
+      (pins CO4-1 RHPD4-1 RHPU4-2 KH4-3)
+    )
+    (net GND
+      (pins CO4-2 CO3-2 CO2-2 CO1-2 UHall1-2 UHall2-2 UHall3-2 UHall4-2 KH1-2 KH2-2
+        KH3-2 KH4-2 CHD1-2 CHD2-2 CHD3-2 CHD4-2 K1-2 K2-2 K3-2 K4-2)
+    )
+    (class kicad_default +5V /hall1 /hall2 /hall3 /hall4 /vho1 /vho2 /vho3
+      /vho4 GND NoConnection1
+      (circuit
+        (use_via Via[0-1]_889:635_um)
+      )
+      (rule
+        (width 254)
+        (clearance 254.1)
+      )
+    )
+    (class "OSHPark Minimum"
+      (circuit
+        (use_via Via[0-1]_889:635_um)
+      )
+      (rule
+        (width 152.4)
+        (clearance 152.5)
+      )
+    )
+  )
+  (wiring
+    (wire (path B.Cu 254  49530 -44450  49530 -42653.9  49530 -42672  49530 -42653.9)(net +5V)(type protect))
+    (wire (path B.Cu 254  44450 -52070  42653.9 -52070  42672 -52070  42653.9 -52070)(net +5V)(type protect))
+    (wire (path B.Cu 254  52070 -57150  52070 -58946.1  52070 -58928  52070 -58946.1)(net +5V)(type protect))
+    (wire (path B.Cu 254  57150 -49530  58946.1 -49530  58928 -49530  58946.1 -49530)(net +5V)(type protect))
+    (wire (path B.Cu 254  58946.1 -42653.9  58946.1 -49530  58946.1 -58946.1  52070 -58946.1
+            42653.9 -58946.1  42653.9 -52070  42653.9 -42653.9  49530 -42653.9
+            58946.1 -42653.9)(net +5V)(type protect))
+    (wire (path F.Cu 254  51752.5 -39540.2  51752.5 -37084)(net +5V)(type protect))
+    (wire (path F.Cu 254  51752.5 -39540.2  54208.7 -39540.2  54356 -39687.5  55979.6 -39687.5
+            58946.1 -42653.9)(net +5V)(type protect))
+    (wire (path F.Cu 254  39540.2 -49847.5  37084 -49847.5)(net +5V)(type protect))
+    (wire (path F.Cu 254  39540.2 -49847.5  39540.2 -47391.3  39687.5 -47244  39687.5 -45620.4
+            42653.9 -42653.9)(net +5V)(type protect))
+    (wire (path F.Cu 254  49847.5 -62059.8  49847.5 -64516)(net +5V)(type protect))
+    (wire (path F.Cu 254  49847.5 -62059.8  47391.3 -62059.8  47244 -61912.5  45620.4 -61912.5
+            42653.9 -58946.1)(net +5V)(type protect))
+    (wire (path F.Cu 254  61912.5 -54356  61912.5 -55979.6  58946.1 -58946.1)(net +5V)(type protect))
+    (wire (path F.Cu 254  62059.8 -51752.5  62059.8 -54208.7  61912.5 -54356)(net +5V)(type protect))
+    (wire (path F.Cu 254  62059.8 -51752.5  64516 -51752.5)(net +5V)(type protect))
+    (wire (path F.Cu 254  57150 -52070  57150 -51435)(net /hall1)(type protect))
+    (wire (path F.Cu 254  61595 -49530  62059.8 -49847.5)(net /hall1)(type protect))
+    (wire (path F.Cu 254  59055 -49530  61595 -49530)(net /hall1)(type protect))
+    (wire (path F.Cu 254  57150 -51435  59055 -49530)(net /hall1)(type protect))
+    (wire (path F.Cu 254  62059.8 -49847.5  62059.8 -47518.3  61785.5 -47244)(net /hall1)(type protect))
+    (wire (path F.Cu 254  51752.5 -62059.8  54081.7 -62059.8  54356 -61785.5)(net /hall2)(type protect))
+    (wire (path F.Cu 254  51752.5 -62059.8  51752.5 -58737.5)(net /hall2)(type protect))
+    (wire (path F.Cu 254  50165 -57150  49530 -57150)(net /hall2)(type protect))
+    (wire (path F.Cu 254  51752.5 -58737.5  50165 -57150)(net /hall2)(type protect))
+    (wire (path F.Cu 254  39540.2 -51752.5  42862.5 -51752.5)(net /hall3)(type protect))
+    (wire (path F.Cu 254  44450 -50165  44450 -49530)(net /hall3)(type protect))
+    (wire (path F.Cu 254  42862.5 -51752.5  44450 -50165)(net /hall3)(type protect))
+    (wire (path F.Cu 254  39540.2 -51752.5  39540.2 -54081.7  39814.5 -54356)(net /hall3)(type protect))
+    (wire (path F.Cu 254  49847.5 -39540.2  47518.3 -39540.2  47244 -39814.5)(net /hall4)(type protect))
+    (wire (path F.Cu 254  49847.5 -39540.2  49847.5 -42862.5)(net /hall4)(type protect))
+    (wire (path F.Cu 254  51435 -44450  52070 -44450)(net /hall4)(type protect))
+    (wire (path F.Cu 254  49847.5 -42862.5  51435 -44450)(net /hall4)(type protect))
+    (wire (path F.Cu 254  64516 -49847.5  64516 -48069.5  63690.5 -47244)(net /vho1)(type protect))
+    (wire (path F.Cu 254  60134.5 -47244  60134.5 -45720  60325 -45720)(net /vho1)(type protect))
+    (wire (path F.Cu 254  55880 -45720  55353.9 -46246.1)(net /vho1)(type protect))
+    (wire (path F.Cu 254  62166.5 -45720  60325 -45720  55880 -45720)(net /vho1)(type protect))
+    (wire (path F.Cu 254  64516 -48069.5  62166.5 -45720)(net /vho1)(type protect))
+    (wire (path F.Cu 254  51752.5 -64516  53530.5 -64516  54356 -63690.5)(net /vho2)(type protect))
+    (wire (path F.Cu 254  54356 -60134.5  55880 -60134.5  55880 -60325)(net /vho2)(type protect))
+    (wire (path F.Cu 254  54356 -63690.5  55054.5 -63690.5)(net /vho2)(type protect))
+    (wire (path F.Cu 254  55880 -55880  55353.9 -55353.9)(net /vho2)(type protect))
+    (wire (path F.Cu 254  55880 -62865  55880 -60325  55880 -55880)(net /vho2)(type protect))
+    (wire (path F.Cu 254  55054.5 -63690.5  55880 -62865)(net /vho2)(type protect))
+    (wire (path F.Cu 254  41465.5 -54356  41465.5 -55880  41275 -55880)(net /vho3)(type protect))
+    (wire (path F.Cu 254  37084 -51752.5  37084 -53530.5  37909.5 -54356)(net /vho3)(type protect))
+    (wire (path F.Cu 254  46246.1 -55353.9  45720 -55880)(net /vho3)(type protect))
+    (wire (path F.Cu 254  37909.5 -55054.5  37909.5 -54356)(net /vho3)(type protect))
+    (wire (path F.Cu 254  38735 -55880  37909.5 -55054.5)(net /vho3)(type protect))
+    (wire (path F.Cu 254  45720 -55880  41275 -55880  38735 -55880)(net /vho3)(type protect))
+    (wire (path F.Cu 254  49847.5 -37084  48069.5 -37084  47244 -37909.5)(net /vho4)(type protect))
+    (wire (path F.Cu 254  47244 -41465.5  45720 -41465.5  45720 -41275)(net /vho4)(type protect))
+    (wire (path F.Cu 254  47244 -37909.5  47180.5 -37909.5)(net /vho4)(type protect))
+    (wire (path F.Cu 254  45720 -45720  46246.1 -46246.1)(net /vho4)(type protect))
+    (wire (path F.Cu 254  45720 -39370  45720 -41275  45720 -45720)(net /vho4)(type protect))
+    (wire (path F.Cu 254  47180.5 -37909.5  45720 -39370)(net /vho4)(type protect))
+    (wire (path B.Cu 254  50800 -46990  49530 -46990)(net GND)(type protect))
+    (wire (path B.Cu 254  46990 -44450  44450 -44450)(net GND)(type protect))
+    (wire (path B.Cu 254  49530 -46990  46990 -44450)(net GND)(type protect))
+    (wire (path B.Cu 254  46990 -50800  46990 -52070)(net GND)(type protect))
+    (wire (path B.Cu 254  44450 -54610  44450 -57150)(net GND)(type protect))
+    (wire (path B.Cu 254  46990 -52070  44450 -54610)(net GND)(type protect))
+    (wire (path B.Cu 254  50800 -54610  52070 -54610)(net GND)(type protect))
+    (wire (path B.Cu 254  54610 -57150  57150 -57150)(net GND)(type protect))
+    (wire (path B.Cu 254  52070 -54610  54610 -57150)(net GND)(type protect))
+    (wire (path B.Cu 254  54610 -50800  54610 -49530)(net GND)(type protect))
+    (wire (path B.Cu 254  57150 -46990  57150 -44450)(net GND)(type protect))
+    (wire (path B.Cu 254  54610 -49530  57150 -46990)(net GND)(type protect))
+    (wire (path B.Cu 254  46990 -50800  46990 -49530  44450 -46990  44450 -44450)(net GND)(type protect))
+    (wire (path B.Cu 254  50800 -54610  49276 -54610  46736 -57150  44450 -57150)(net GND)(type protect))
+    (wire (path B.Cu 254  54610 -50800  54610 -52070  57150 -54610  57150 -57150)(net GND)(type protect))
+    (wire (path B.Cu 254  50800 -46990  52070 -46990  54610 -44450  57150 -44450)(net GND)(type protect))
+    (wire (path B.Cu 254  50800 -46990  54610 -50800  50800 -54610  46990 -50800  50800 -46990)(net GND)(type protect))
+    (wire (path F.Cu 254  47244 -43370.5  47244 -45339)(net GND)(type protect))
+    (wire (path F.Cu 254  48895 -46990  50800 -46990)(net GND)(type protect))
+    (wire (path F.Cu 254  47244 -45339  48895 -46990)(net GND)(type protect))
+    (wire (path F.Cu 254  43370.5 -54356  45339 -54356)(net GND)(type protect))
+    (wire (path F.Cu 254  46990 -52705  46990 -50800)(net GND)(type protect))
+    (wire (path F.Cu 254  45339 -54356  46990 -52705)(net GND)(type protect))
+    (wire (path F.Cu 254  54356 -58229.5  54356 -56261)(net GND)(type protect))
+    (wire (path F.Cu 254  52705 -54610  50800 -54610)(net GND)(type protect))
+    (wire (path F.Cu 254  54356 -56261  52705 -54610)(net GND)(type protect))
+    (wire (path F.Cu 254  50800 -59860.2  47391.3 -59860.2  47244 -60007.5)(net GND)(type protect))
+    (wire (path F.Cu 254  41739.8 -50800  41739.8 -47391.3  41592.5 -47244)(net GND)(type protect))
+    (wire (path F.Cu 254  50800 -41739.8  54208.7 -41739.8  54356 -41592.5  54356 -41656
+            57150 -44450)(net GND)(type protect))
+    (wire (path F.Cu 254  41592.5 -47244  41656 -47244  44450 -44450)(net GND)(type protect))
+    (wire (path F.Cu 254  47244 -60007.5  47244 -59944  44450 -57150)(net GND)(type protect))
+    (wire (path F.Cu 254  60007.5 -54356  59944 -54356  57150 -57150)(net GND)(type protect))
+    (wire (path F.Cu 254  58229.5 -47244  56261 -47244  54610 -48895  54610 -50800)(net GND)(type protect))
+    (wire (path F.Cu 254  59860.2 -50800  59860.2 -54208.7  60007.5 -54356)(net GND)(type protect))
+  )
+)
