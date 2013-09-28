@@ -1,4 +1,4 @@
-(kicad_pcb (version 3) (host pcbnew "(2013-07-07 BZR 4022)-stable")
+(kicad_pcb (version 3) (host pcbnew "(2013-mar-25)-stable")
 
   (general
     (links 58)
@@ -62,7 +62,7 @@
       (layerselection 271613953)
       (usegerberextensions false)
       (excludeedgelayer true)
-      (linewidth 0.150000)
+      (linewidth 0)
       (plotframeref false)
       (viasonmask false)
       (mode 1)

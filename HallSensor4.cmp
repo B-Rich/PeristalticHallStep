@@ -1,0 +1,52 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-25)-stable date = Friday, 27 September, 2013 09:59:39 pm
+
+BeginCmp
+TimeStamp = /52443F3E;
+Reference = CHD4;
+ValeurCmp = 0.1u;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /524444A3;
+Reference = CO4;
+ValeurCmp = 10p;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52449005;
+Reference = K4;
+ValeurCmp = CONN_3;
+IdModule  = TO92H;
+EndCmp
+
+BeginCmp
+TimeStamp = /5244802B;
+Reference = KH4;
+ValeurCmp = CONN_3;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52444269;
+Reference = RHPD4;
+ValeurCmp = 0.0;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /524440E7;
+Reference = RHPU4;
+ValeurCmp = 50K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5244347B;
+Reference = UHall4;
+ValeurCmp = A3213;
+IdModule  = SOT23-SPECIAL;
+EndCmp
+
+EndListe
