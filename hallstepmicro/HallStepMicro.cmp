@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-25)-stable date = Sunday, 29 September, 2013 11:36:38 pm
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 30/09/2013 8:16:44 AM
 
 BeginCmp
 TimeStamp = /5248A9B3/5246FEFF;
@@ -116,28 +116,28 @@ BeginCmp
 TimeStamp = /5248A9B3/5246F943;
 Reference = K1;
 ValeurCmp = CONN_3;
-IdModule  = TO92H;
+IdModule  = TO92HL;
 EndCmp
 
 BeginCmp
 TimeStamp = /5248A9B3/5246F952;
 Reference = K2;
 ValeurCmp = CONN_3;
-IdModule  = TO92H;
+IdModule  = TO92HL;
 EndCmp
 
 BeginCmp
 TimeStamp = /5248A9B3/5246F961;
 Reference = K3;
 ValeurCmp = CONN_3;
-IdModule  = TO92H;
+IdModule  = TO92HL;
 EndCmp
 
 BeginCmp
 TimeStamp = /5248A9B3/5246F970;
 Reference = K4;
 ValeurCmp = CONN_3;
-IdModule  = TO92H;
+IdModule  = TO92HL;
 EndCmp
 
 BeginCmp
