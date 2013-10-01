@@ -36,13 +36,13 @@
     (trace_clearance 0.254)
     (zone_clearance 0.508)
     (zone_45_only no)
-    (trace_min 0.254)
+    (trace_min 0.1524)
     (segment_width 0.2)
     (edge_width 0.15)
     (via_size 0.889)
     (via_drill 0.635)
-    (via_min_size 0.889)
-    (via_min_drill 0.508)
+    (via_min_size 0.508)
+    (via_min_drill 0.3302)
     (uvia_size 0.508)
     (uvia_drill 0.127)
     (uvias_allowed no)
@@ -138,6 +138,15 @@
     (add_net /hall2_in)
     (add_net /hall3_in)
     (add_net /hall4_in)
+  )
+
+  (net_class OSHPark_Minimum ""
+    (clearance 0.1524)
+    (trace_width 0.1524)
+    (via_dia 0.508)
+    (via_drill 0.3302)
+    (uvia_dia 0.508)
+    (uvia_drill 0.127)
   )
 
   (net_class PWR ""
