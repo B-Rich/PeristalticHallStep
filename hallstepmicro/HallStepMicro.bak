@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Monday, 30 September, 2013 02:05:42 pm
+EESchema Schematic File Version 2  date Tuesday, 01 October, 2013 11:17:18 am
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title ""
-Date "30 sep 2013"
+Date "1 oct 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -216,7 +216,7 @@ Text Label 7700 5700 0    60   ~ 0
 STP_MAX
 Text Label 6400 5200 0    60   ~ 0
 STP_DIR
-Text Label 7600 5200 0    60   ~ 0
+Text Label 7500 5200 0    60   ~ 0
 DC_PHASE
 $Comp
 L VDD #PWR08
@@ -427,19 +427,11 @@ Wire Wire Line
 Wire Wire Line
 	6600 6200 6600 6000
 Wire Wire Line
-	6600 6000 6800 6000
+	6600 6000 7600 6000
 Wire Wire Line
-	6800 6000 7200 6000
+	7200 5600 7200 6000
 Wire Wire Line
-	7200 6000 7600 6000
-Wire Wire Line
-	7200 5600 7200 5700
-Wire Wire Line
-	7200 5700 7200 6000
-Wire Wire Line
-	6800 5600 7200 5600
-Wire Wire Line
-	7200 5600 7600 5600
+	6800 5600 7600 5600
 Connection ~ 6800 6000
 Connection ~ 7200 5600
 Wire Wire Line
@@ -457,9 +449,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 5700 8100 5700
 Wire Wire Line
-	7500 5200 8000 5200
-Wire Wire Line
-	6900 5200 6400 5200
+	7400 5200 7900 5200
 Wire Wire Line
 	4100 5300 4600 5300
 Wire Wire Line
@@ -655,17 +645,6 @@ Text Notes 1950 6400 0    60   ~ 0
 SCK
 Text Notes 3700 6400 0    60   ~ 0
 MOSI
-$Comp
-L JUMPER JPDIR1
-U 1 1 5249C7B2
-P 7200 5200
-F 0 "JPDIR1" H 7200 5350 60  0000 C CNN
-F 1 "JUMPER" H 7200 5120 40  0000 C CNN
-F 2 "~" H 7200 5200 60  0000 C CNN
-F 3 "~" H 7200 5200 60  0000 C CNN
-	1    7200 5200
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	3000 2000 3000 2700
 Wire Notes Line
@@ -674,4 +653,17 @@ Wire Notes Line
 	4300 2700 4300 2000
 Wire Notes Line
 	4300 2000 3000 2000
+$Comp
+L R RDIR1
+U 1 1 5249CEDB
+P 7150 5200
+F 0 "RDIR1" V 7230 5200 40  0000 C CNN
+F 1 "0.0" V 7157 5201 40  0000 C CNN
+F 2 "~" V 7080 5200 30  0000 C CNN
+F 3 "~" H 7150 5200 30  0000 C CNN
+	1    7150 5200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6900 5200 6400 5200
 $EndSCHEMATC

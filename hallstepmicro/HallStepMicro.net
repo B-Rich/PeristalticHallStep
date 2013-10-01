@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/clothbot/Projects/github/clothbot/PeristalticHallStep/hallstepmicro/HallStepMicro.sch)
-    (date "Monday, 30 September, 2013 02:09:36 pm")
+    (date "Tuesday, 01 October, 2013 11:17:31 am")
     (tool "eeschema (2013-mar-25)-stable"))
   (components
     (comp (ref IC1)
@@ -223,6 +223,17 @@
         (pin (num 4) (name 4) (type passive))
         (pin (num 5) (name 5) (type passive))
         (pin (num 6) (name 6) (type passive))))
+    (libpart (lib allegro) (part A3213)
+      (docs transistors/mos/*.*)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) A3213)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name VDD) (type input))
+        (pin (num 2) (name GND) (type passive))
+        (pin (num 3) (name VOUT) (type passive))))
     (libpart (lib atmel) (part ATTINY24A-SS)
       (description "ATTINY24A, SO14, 2k Flash, 128B SRAM, 128B EEPROM, dW")
       (docs http://www.atmel.com/dyn/resources/prod_documents/doc8183.pdf)
@@ -244,18 +255,7 @@
         (pin (num 11) (name "(PCINT2/AIN1/ADC2)PA2") (type BiDi))
         (pin (num 12) (name "(PCINT1/AIN0/ADC1)PA1") (type BiDi))
         (pin (num 13) (name "(PCINT0/AREF/ADC0)PA0") (type BiDi))
-        (pin (num 14) (name GND) (type power_in))))
-    (libpart (lib allegro) (part A3213)
-      (docs transistors/mos/*.*)
-      (fields
-        (field (name Reference) U)
-        (field (name Value) A3213)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
-      (pins
-        (pin (num 1) (name VDD) (type input))
-        (pin (num 2) (name GND) (type passive))
-        (pin (num 3) (name VOUT) (type passive)))))
+        (pin (num 14) (name GND) (type power_in)))))
   (libraries
     (library (logical device)
       (uri "/Library/Application Support/kicad/library/device.lib"))
