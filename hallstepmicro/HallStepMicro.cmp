@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-25)-stable date = Monday, 30 September, 2013 02:09:55 pm
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 01/10/2013 8:15:01 AM
 
 BeginCmp
 TimeStamp = /5248A9B3/5246FEFF;
@@ -60,21 +60,21 @@ BeginCmp
 TimeStamp = /52470F9C;
 Reference = DCM1;
 ValeurCmp = CONN_6;
-IdModule  = SIL-6;
+IdModule  = SIL6-offset-0p005;
 EndCmp
 
 BeginCmp
 TimeStamp = /52485E70;
 Reference = HALL6IN1;
 ValeurCmp = CONN_6;
-IdModule  = SIL-6;
+IdModule  = SIL6-offset-0p005;
 EndCmp
 
 BeginCmp
 TimeStamp = /5249C0EE;
 Reference = HALL6OUT1;
 ValeurCmp = CONN_6;
-IdModule  = SIL-6;
+IdModule  = SIL6-offset-0p005;
 EndCmp
 
 BeginCmp
@@ -88,7 +88,7 @@ BeginCmp
 TimeStamp = /524708B5;
 Reference = ISP6PIN1;
 ValeurCmp = CONN_3X2;
-IdModule  = pin_array_3x2;
+IdModule  = pin_array_3x2-offset-0p005;
 EndCmp
 
 BeginCmp
@@ -144,14 +144,14 @@ BeginCmp
 TimeStamp = /5247247E;
 Reference = SENSE1;
 ValeurCmp = CONN_3;
-IdModule  = SIL-3;
+IdModule  = SIL3-offset-0p005;
 EndCmp
 
 BeginCmp
 TimeStamp = /52471488;
 Reference = STEPIN1;
 ValeurCmp = CONN_5X2;
-IdModule  = PIN_ARRAY_5x2;
+IdModule  = PIN_ARRAY_5x2-offset-0p005;
 EndCmp
 
 BeginCmp
