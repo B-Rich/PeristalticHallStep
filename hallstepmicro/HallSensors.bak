@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wednesday, 02 October, 2013 09:18:32 pm
+EESchema Schematic File Version 2  date Friday, 04 October, 2013 11:19:43 am
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,10 +36,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
-Title ""
-Date "3 oct 2013"
-Rev ""
-Comp ""
+Title "Hall Sensors With ATtiny84A Support"
+Date "4 oct 2013"
+Rev "20131004"
+Comp "ClothBot Designs"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -51,8 +51,8 @@ U 1 1 5246F83F
 P 1700 3500
 F 0 "UHall1" H 1710 3670 60  0000 R CNN
 F 1 "A3213" H 1710 3350 60  0000 R CNN
-F 2 "~" H 1700 3500 60  0000 C CNN
-F 3 "~" H 1700 3500 60  0000 C CNN
+F 2 "SOT-23W" H 1700 3500 60  0000 C CNN
+F 3 "http://www.allegromicro.com/en/Products/Magnetic-Digital-Position-Sensor-ICs/Micropower-Switches-Latches/A3213-4.aspx" H 1700 3500 60  0001 C CNN
 	1    1700 3500
 	1    0    0    -1  
 $EndComp
@@ -62,8 +62,8 @@ U 1 1 5246F860
 P 3000 3500
 F 0 "UHall2" H 3010 3670 60  0000 R CNN
 F 1 "A3213" H 3010 3350 60  0000 R CNN
-F 2 "~" H 3000 3500 60  0000 C CNN
-F 3 "~" H 3000 3500 60  0000 C CNN
+F 2 "SOT-23W" H 3000 3500 60  0000 C CNN
+F 3 "http://www.allegromicro.com/en/Products/Magnetic-Digital-Position-Sensor-ICs/Micropower-Switches-Latches/A3213-4.aspx" H 3000 3500 60  0001 C CNN
 	1    3000 3500
 	1    0    0    -1  
 $EndComp
@@ -73,8 +73,8 @@ U 1 1 5246F86E
 P 4300 3500
 F 0 "UHall3" H 4310 3670 60  0000 R CNN
 F 1 "A3213" H 4310 3350 60  0000 R CNN
-F 2 "~" H 4300 3500 60  0000 C CNN
-F 3 "~" H 4300 3500 60  0000 C CNN
+F 2 "SOT-23W" H 4300 3500 60  0000 C CNN
+F 3 "http://www.allegromicro.com/en/Products/Magnetic-Digital-Position-Sensor-ICs/Micropower-Switches-Latches/A3213-4.aspx" H 4300 3500 60  0001 C CNN
 	1    4300 3500
 	1    0    0    -1  
 $EndComp
@@ -84,8 +84,8 @@ U 1 1 5246F874
 P 5600 3500
 F 0 "UHall4" H 5610 3670 60  0000 R CNN
 F 1 "A3213" H 5610 3350 60  0000 R CNN
-F 2 "~" H 5600 3500 60  0000 C CNN
-F 3 "~" H 5600 3500 60  0000 C CNN
+F 2 "SOT-23W" H 5600 3500 60  0000 C CNN
+F 3 "http://www.allegromicro.com/en/Products/Magnetic-Digital-Position-Sensor-ICs/Micropower-Switches-Latches/A3213-4.aspx" H 5600 3500 60  0001 C CNN
 	1    5600 3500
 	1    0    0    -1  
 $EndComp
@@ -103,7 +103,7 @@ U 1 1 5246FEFF
 P 1300 3500
 F 0 "CD1" H 1300 3600 40  0000 L CNN
 F 1 "0.1u" H 1306 3415 40  0000 L CNN
-F 2 "~" H 1338 3350 30  0000 C CNN
+F 2 "SM0805" H 1338 3350 30  0000 C CNN
 F 3 "~" H 1300 3500 60  0000 C CNN
 	1    1300 3500
 	1    0    0    -1  
@@ -114,7 +114,7 @@ U 1 1 5246FF0C
 P 2600 3500
 F 0 "CD2" H 2600 3600 40  0000 L CNN
 F 1 "0.1u" H 2606 3415 40  0000 L CNN
-F 2 "~" H 2638 3350 30  0000 C CNN
+F 2 "SM0805" H 2638 3350 30  0000 C CNN
 F 3 "~" H 2600 3500 60  0000 C CNN
 	1    2600 3500
 	1    0    0    -1  
@@ -125,7 +125,7 @@ U 1 1 5246FF12
 P 3900 3500
 F 0 "CD3" H 3900 3600 40  0000 L CNN
 F 1 "0.1u" H 3906 3415 40  0000 L CNN
-F 2 "~" H 3938 3350 30  0000 C CNN
+F 2 "SM0805" H 3938 3350 30  0000 C CNN
 F 3 "~" H 3900 3500 60  0000 C CNN
 	1    3900 3500
 	1    0    0    -1  
@@ -136,7 +136,7 @@ U 1 1 5246FF18
 P 5200 3500
 F 0 "CD4" H 5200 3600 40  0000 L CNN
 F 1 "0.1u" H 5206 3415 40  0000 L CNN
-F 2 "~" H 5238 3350 30  0000 C CNN
+F 2 "SM0805" H 5238 3350 30  0000 C CNN
 F 3 "~" H 5200 3500 60  0000 C CNN
 	1    5200 3500
 	1    0    0    -1  
@@ -147,7 +147,7 @@ U 1 1 5246FF1E
 P 2000 3500
 F 0 "CH1" H 2000 3600 40  0000 L CNN
 F 1 "10p" H 2006 3415 40  0000 L CNN
-F 2 "~" H 2038 3350 30  0000 C CNN
+F 2 "SM0805" H 2038 3350 30  0000 C CNN
 F 3 "~" H 2000 3500 60  0000 C CNN
 	1    2000 3500
 	1    0    0    -1  
@@ -158,7 +158,7 @@ U 1 1 5246FF24
 P 3300 3500
 F 0 "CH2" H 3300 3600 40  0000 L CNN
 F 1 "10p" H 3306 3415 40  0000 L CNN
-F 2 "~" H 3338 3350 30  0000 C CNN
+F 2 "SM0805" H 3338 3350 30  0000 C CNN
 F 3 "~" H 3300 3500 60  0000 C CNN
 	1    3300 3500
 	1    0    0    -1  
@@ -169,7 +169,7 @@ U 1 1 5246FF2A
 P 4600 3500
 F 0 "CH3" H 4600 3600 40  0000 L CNN
 F 1 "10p" H 4606 3415 40  0000 L CNN
-F 2 "~" H 4638 3350 30  0000 C CNN
+F 2 "SM0805" H 4638 3350 30  0000 C CNN
 F 3 "~" H 4600 3500 60  0000 C CNN
 	1    4600 3500
 	1    0    0    -1  
@@ -180,7 +180,7 @@ U 1 1 5246FF30
 P 5900 3500
 F 0 "CH4" H 5900 3600 40  0000 L CNN
 F 1 "10p" H 5906 3415 40  0000 L CNN
-F 2 "~" H 5938 3350 30  0000 C CNN
+F 2 "SM0805" H 5938 3350 30  0000 C CNN
 F 3 "~" H 5900 3500 60  0000 C CNN
 	1    5900 3500
 	1    0    0    -1  
@@ -367,7 +367,7 @@ U 1 1 524CC8C3
 P 1700 2550
 F 0 "RPU1" V 1650 2550 40  0000 C CNN
 F 1 "CONN_2" V 1750 2550 40  0000 C CNN
-F 2 "" H 1700 2550 60  0000 C CNN
+F 2 "SM0805" H 1700 2550 60  0000 C CNN
 F 3 "" H 1700 2550 60  0000 C CNN
 	1    1700 2550
 	0    -1   -1   0   
@@ -378,8 +378,8 @@ U 1 1 524CC8D2
 P 3000 2550
 F 0 "RPU2" V 2950 2550 40  0000 C CNN
 F 1 "CONN_2" V 3050 2550 40  0000 C CNN
-F 2 "" H 3000 2550 60  0000 C CNN
-F 3 "" H 3000 2550 60  0000 C CNN
+F 2 "SM0805" H 3000 2550 60  0000 C CNN
+F 3 "http://www.allegromicro.com/en/Products/Magnetic-Digital-Position-Sensor-ICs/Micropower-Switches-Latches/A3213-4.aspx" H 3000 2550 60  0001 C CNN
 	1    3000 2550
 	0    -1   -1   0   
 $EndComp
@@ -389,7 +389,7 @@ U 1 1 524CC8E1
 P 4300 2550
 F 0 "RPU3" V 4250 2550 40  0000 C CNN
 F 1 "CONN_2" V 4350 2550 40  0000 C CNN
-F 2 "" H 4300 2550 60  0000 C CNN
+F 2 "SM0805" H 4300 2550 60  0000 C CNN
 F 3 "" H 4300 2550 60  0000 C CNN
 	1    4300 2550
 	0    -1   -1   0   
@@ -400,7 +400,7 @@ U 1 1 524CC8F0
 P 5600 2550
 F 0 "RPU4" V 5550 2550 40  0000 C CNN
 F 1 "CONN_2" V 5650 2550 40  0000 C CNN
-F 2 "" H 5600 2550 60  0000 C CNN
+F 2 "SM0805" H 5600 2550 60  0000 C CNN
 F 3 "" H 5600 2550 60  0000 C CNN
 	1    5600 2550
 	0    -1   -1   0   
@@ -539,4 +539,6 @@ Wire Wire Line
 Connection ~ 5400 2900
 Text Notes 1600 2200 0    60   ~ 0
 RPU* Pull-up resistors are\nunpopulated/optional.
+Text Notes 1350 4350 0    60   ~ 0
+Hall Sensor: Allegro A3213\nDatasheet: http://www.allegromicro.com/en/Products/Magnetic-Digital-Position-Sensor-ICs/Micropower-Switches-Latches/A3213-4.aspx
 $EndSCHEMATC

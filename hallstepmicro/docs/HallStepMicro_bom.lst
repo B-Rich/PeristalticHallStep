@@ -1,0 +1,99 @@
+eeschema (2013-mar-25)-stable  >> Creation date: Friday, 04 October, 2013 11:21:03 am
+#Cmp ( order = Reference )
+| CD1        0.1u        ~                   ; SM0805      ; ~           
+| CD2        0.1u        ~                   ; SM0805      ; ~           
+| CD3        0.1u        ~                   ; SM0805      ; ~           
+| CD4        0.1u        ~                   ; SM0805      ; ~           
+| CH1        10p         ~                   ; SM0805      ; ~           
+| CH2        10p         ~                   ; SM0805      ; ~           
+| CH3        10p         ~                   ; SM0805      ; ~           
+| CH4        10p         ~                   ; SM0805      ; ~           
+| DCM1       CONN_6                          ; SIL6-offset-0p005;             
+| HALL6IN1   CONN_6                          ; SIL6-offset-0p005;             
+| HALL6OUT1  CONN_6                          ; SIL6-offset-0p005;             
+| IC1        ATTINY84A-SShttp://www.atmel.com/devices/ATTINY84A.aspx; SO14E       ; http://www.atmel.com/devices/ATTINY84A.aspx
+| ISP6PIN1   CONN_3X2                        ; pin_array_3x2-offset-0p005;             
+| RBRK1      5K          ~                   ; SM0805      ; ~           
+| RDIR1      0.0         ~                   ; SM0805      ; ~           
+| RENB1      5K          ~                   ; SM0805      ; ~           
+| RESET1     CONN_2                          ; SIL-2       ;             
+| RMODE1     5K          ~                   ; SM0805      ; ~           
+| RPHASE1    5K          ~                   ; SM0805      ; ~           
+| RPU1       CONN_2                          ; SM0805      ;             
+| RPU2       CONN_2      http://www.allegromicro.com/en/Products/Magnetic-Digital-Position-Sensor-ICs/Micropower-Switches-Latches/A3213-4.aspx; SM0805      ; http://www.allegromicro.com/en/Products/Magnetic-Digital-Position-Sensor-ICs/Micropower-Switches-Latches/A3213-4.aspx
+| RPU3       CONN_2                          ; SM0805      ;             
+| RPU4       CONN_2                          ; SM0805      ;             
+| RRESET1    5K          ~                   ; SM0805      ; ~           
+| SENSE1     CONN_3      http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=MPX5500; SIL3-offset-0p005; http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=MPX5500
+| STEPIN1    CONN_5X2                        ; PIN_ARRAY_5x2-offset-0p005;             
+| UHall1     A3213       http://www.allegromicro.com/en/Products/Magnetic-Digital-Position-Sensor-ICs/Micropower-Switches-Latches/A3213-4.aspx; SOT-23W     ; http://www.allegromicro.com/en/Products/Magnetic-Digital-Position-Sensor-ICs/Micropower-Switches-Latches/A3213-4.aspx
+| UHall2     A3213       http://www.allegromicro.com/en/Products/Magnetic-Digital-Position-Sensor-ICs/Micropower-Switches-Latches/A3213-4.aspx; SOT-23W     ; http://www.allegromicro.com/en/Products/Magnetic-Digital-Position-Sensor-ICs/Micropower-Switches-Latches/A3213-4.aspx
+| UHall3     A3213       http://www.allegromicro.com/en/Products/Magnetic-Digital-Position-Sensor-ICs/Micropower-Switches-Latches/A3213-4.aspx; SOT-23W     ; http://www.allegromicro.com/en/Products/Magnetic-Digital-Position-Sensor-ICs/Micropower-Switches-Latches/A3213-4.aspx
+| UHall4     A3213       http://www.allegromicro.com/en/Products/Magnetic-Digital-Position-Sensor-ICs/Micropower-Switches-Latches/A3213-4.aspx; SOT-23W     ; http://www.allegromicro.com/en/Products/Magnetic-Digital-Position-Sensor-ICs/Micropower-Switches-Latches/A3213-4.aspx
+#End Cmp
+
+#Cmp ( order = Value )
+| 0.1u         CD1       ; SM0805      ; ~           
+| 0.1u         CD2       ; SM0805      ; ~           
+| 0.1u         CD3       ; SM0805      ; ~           
+| 0.1u         CD4       ; SM0805      ; ~           
+| 10p          CH1       ; SM0805      ; ~           
+| 10p          CH2       ; SM0805      ; ~           
+| 10p          CH3       ; SM0805      ; ~           
+| 10p          CH4       ; SM0805      ; ~           
+| CONN_6       DCM1      ; SIL6-offset-0p005;             
+| CONN_6       HALL6IN1  ; SIL6-offset-0p005;             
+| CONN_6       HALL6OUT1 ; SIL6-offset-0p005;             
+| ATTINY84A-SS IC1       ; SO14E       ; http://www.atmel.com/devices/ATTINY84A.aspx
+| CONN_3X2     ISP6PIN1  ; pin_array_3x2-offset-0p005;             
+| 5K           RBRK1     ; SM0805      ; ~           
+| 0.0          RDIR1     ; SM0805      ; ~           
+| 5K           RENB1     ; SM0805      ; ~           
+| CONN_2       RESET1    ; SIL-2       ;             
+| 5K           RMODE1    ; SM0805      ; ~           
+| 5K           RPHASE1   ; SM0805      ; ~           
+| CONN_2       RPU1      ; SM0805      ;             
+| CONN_2       RPU2      ; SM0805      ; http://www.allegromicro.com/en/Products/Magnetic-Digital-Position-Sensor-ICs/Micropower-Switches-Latches/A3213-4.aspx
+| CONN_2       RPU3      ; SM0805      ;             
+| CONN_2       RPU4      ; SM0805      ;             
+| 5K           RRESET1   ; SM0805      ; ~           
+| CONN_3       SENSE1    ; SIL3-offset-0p005; http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=MPX5500
+| CONN_5X2     STEPIN1   ; PIN_ARRAY_5x2-offset-0p005;             
+| A3213        UHall1    ; SOT-23W     ; http://www.allegromicro.com/en/Products/Magnetic-Digital-Position-Sensor-ICs/Micropower-Switches-Latches/A3213-4.aspx
+| A3213        UHall2    ; SOT-23W     ; http://www.allegromicro.com/en/Products/Magnetic-Digital-Position-Sensor-ICs/Micropower-Switches-Latches/A3213-4.aspx
+| A3213        UHall3    ; SOT-23W     ; http://www.allegromicro.com/en/Products/Magnetic-Digital-Position-Sensor-ICs/Micropower-Switches-Latches/A3213-4.aspx
+| A3213        UHall4    ; SOT-23W     ; http://www.allegromicro.com/en/Products/Magnetic-Digital-Position-Sensor-ICs/Micropower-Switches-Latches/A3213-4.aspx
+#End Cmp
+
+#Global, Hierarchical Labels and PinSheets ( order = Sheet Number ) count = 12
+> hall1                        PinSheet Output  Loc /(X=55.880 mm, Y=58.420 mm)
+> hall2                        PinSheet Output  Loc /(X=55.880 mm, Y=60.960 mm)
+> hall3                        PinSheet Output  Loc /(X=55.880 mm, Y=63.500 mm)
+> hall4                        PinSheet Output  Loc /(X=55.880 mm, Y=66.040 mm)
+> VCC                          PinSheet UnSpc   Loc /(X=55.880 mm, Y=53.340 mm)
+> VSS                          PinSheet UnSpc   Loc /(X=55.880 mm, Y=55.880 mm)
+> hall1                        Hierarchical        Loc /HallSensors1/(X=83.820 mm, Y=127.000 mm)
+> hall2                        Hierarchical        Loc /HallSensors1/(X=83.820 mm, Y=129.540 mm)
+> hall3                        Hierarchical        Loc /HallSensors1/(X=83.820 mm, Y=132.080 mm)
+> hall4                        Hierarchical        Loc /HallSensors1/(X=83.820 mm, Y=134.620 mm)
+> VCC                          Hierarchical        Loc /HallSensors1/(X=83.820 mm, Y=121.920 mm)
+> VSS                          Hierarchical        Loc /HallSensors1/(X=83.820 mm, Y=124.460 mm)
+#End labels
+
+#Global, Hierarchical Labels and PinSheets ( order = Alphab. ) count = 12
+
+> hall1                        PinSheet Output  Loc /(X=55.880 mm, Y=58.420 mm)
+> hall1                        Hierarchical        Loc /HallSensors1/(X=83.820 mm, Y=127.000 mm)
+> hall2                        PinSheet Output  Loc /(X=55.880 mm, Y=60.960 mm)
+> hall2                        Hierarchical        Loc /HallSensors1/(X=83.820 mm, Y=129.540 mm)
+> hall3                        PinSheet Output  Loc /(X=55.880 mm, Y=63.500 mm)
+> hall3                        Hierarchical        Loc /HallSensors1/(X=83.820 mm, Y=132.080 mm)
+> hall4                        PinSheet Output  Loc /(X=55.880 mm, Y=66.040 mm)
+> hall4                        Hierarchical        Loc /HallSensors1/(X=83.820 mm, Y=134.620 mm)
+> VCC                          PinSheet UnSpc   Loc /(X=55.880 mm, Y=53.340 mm)
+> VCC                          Hierarchical        Loc /HallSensors1/(X=83.820 mm, Y=121.920 mm)
+> VSS                          PinSheet UnSpc   Loc /(X=55.880 mm, Y=55.880 mm)
+> VSS                          Hierarchical        Loc /HallSensors1/(X=83.820 mm, Y=124.460 mm)
+#End labels
+
+#End List

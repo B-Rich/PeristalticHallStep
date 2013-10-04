@@ -12,7 +12,13 @@
     (nets 24)
   )
 
-  (page A3)
+  (page USLetter)
+  (title_block 
+    (title "Hall Sensors With ATtiny84A Support")
+    (rev 20131004)
+    (company "ClothBot Designs")
+  )
+
   (layers
     (15 F.Cu signal)
     (0 B.Cu signal)
@@ -83,7 +89,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ClothBot_HSM_OSHPark))
+      (outputdirectory docs/board/))
   )
 
   (net 0 "")
