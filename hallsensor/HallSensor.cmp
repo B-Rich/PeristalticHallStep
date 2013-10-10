@@ -1,4 +1,11 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-25)-stable date = Monday, 07 October, 2013 02:02:09 pm
+Cmp-Mod V01 Created by CvPcb (2013-mar-25)-stable date = Wednesday, 09 October, 2013 02:55:37 pm
+
+BeginCmp
+TimeStamp = /525599C0;
+Reference = ANCHOR1;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
 
 BeginCmp
 TimeStamp = /5246FEFF;
@@ -15,10 +22,24 @@ IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
-TimeStamp = /5252F238;
-Reference = KH1;
-ValeurCmp = CONN_3;
-IdModule  = SIL-3;
+TimeStamp = /5255A3F6;
+Reference = PAIR1;
+ValeurCmp = CONN_2;
+IdModule  = EDGE_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5255A405;
+Reference = PAIR2;
+ValeurCmp = CONN_2;
+IdModule  = EDGE_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5255A414;
+Reference = PAIR3;
+ValeurCmp = CONN_2;
+IdModule  = EDGE_2;
 EndCmp
 
 BeginCmp

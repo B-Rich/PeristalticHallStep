@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tuesday, 08 October, 2013 11:53:12 am
+EESchema Schematic File Version 2  date Wednesday, 09 October, 2013 12:51:27 pm
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
 Title "Hall Sensor Trinket Board"
-Date "8 oct 2013"
+Date "9 oct 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -382,17 +382,6 @@ F 3 "" H 3300 4700 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +BATT #PWR017
-U 1 1 52543CFE
-P 3100 6300
-F 0 "#PWR017" H 3100 6250 20  0001 C CNN
-F 1 "+BATT" H 3100 6400 30  0000 C CNN
-F 2 "" H 3100 6300 60  0000 C CNN
-F 3 "" H 3100 6300 60  0000 C CNN
-	1    3100 6300
-	0    -1   -1   0   
-$EndComp
-$Comp
 L VSS #PWR018
 U 1 1 52543D31
 P 3100 6400
@@ -572,4 +561,15 @@ Wire Notes Line
 	3900 4500 4000 4500
 Text Notes 3400 5350 0    60   ~ 0
 Trinket Socket:\nhttp://www.adafruit.com/category/167
+$Comp
+L VCC #PWR?
+U 1 1 5254422C
+P 3100 6300
+F 0 "#PWR?" H 3100 6400 30  0001 C CNN
+F 1 "VCC" H 3100 6400 30  0000 C CNN
+F 2 "" H 3100 6300 60  0000 C CNN
+F 3 "" H 3100 6300 60  0000 C CNN
+	1    3100 6300
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

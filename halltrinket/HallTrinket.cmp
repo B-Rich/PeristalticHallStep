@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-25)-stable date = Tuesday, 08 October, 2013 01:34:34 pm
+Cmp-Mod V01 Created by CvPcb (2013-mar-25)-stable date = Wednesday, 09 October, 2013 12:52:07 pm
 
 BeginCmp
 TimeStamp = /5253F986/5246FEFF;
@@ -61,90 +61,6 @@ TimeStamp = /52543983;
 Reference = KSERVO1;
 ValeurCmp = CONN_3;
 IdModule  = SIL3-offset-0p005;
-EndCmp
-
-BeginCmp
-TimeStamp = /5253F986/5253FAF6;
-Reference = P1H1;
-ValeurCmp = CONN_1;
-IdModule  = PINTST;
-EndCmp
-
-BeginCmp
-TimeStamp = /5253F986/5253FB05;
-Reference = P1H2;
-ValeurCmp = CONN_1;
-IdModule  = PINTST;
-EndCmp
-
-BeginCmp
-TimeStamp = /5253F986/5253FB14;
-Reference = P1H3;
-ValeurCmp = CONN_1;
-IdModule  = PINTST;
-EndCmp
-
-BeginCmp
-TimeStamp = /525400B0/5253FAF6;
-Reference = P2H1;
-ValeurCmp = CONN_1;
-IdModule  = PINTST;
-EndCmp
-
-BeginCmp
-TimeStamp = /525400B0/5253FB05;
-Reference = P2H2;
-ValeurCmp = CONN_1;
-IdModule  = PINTST;
-EndCmp
-
-BeginCmp
-TimeStamp = /525400B0/5253FB14;
-Reference = P2H3;
-ValeurCmp = CONN_1;
-IdModule  = PINTST;
-EndCmp
-
-BeginCmp
-TimeStamp = /52541488/5253FAF6;
-Reference = P3H1;
-ValeurCmp = CONN_1;
-IdModule  = PINTST;
-EndCmp
-
-BeginCmp
-TimeStamp = /52541488/5253FB05;
-Reference = P3H2;
-ValeurCmp = CONN_1;
-IdModule  = PINTST;
-EndCmp
-
-BeginCmp
-TimeStamp = /52541488/5253FB14;
-Reference = P3H3;
-ValeurCmp = CONN_1;
-IdModule  = PINTST;
-EndCmp
-
-BeginCmp
-TimeStamp = /52541483/5253FAF6;
-Reference = P4H1;
-ValeurCmp = CONN_1;
-IdModule  = PINTST;
-EndCmp
-
-BeginCmp
-TimeStamp = /52541483/5253FB05;
-Reference = P4H2;
-ValeurCmp = CONN_1;
-IdModule  = PINTST;
-EndCmp
-
-BeginCmp
-TimeStamp = /52541483/5253FB14;
-Reference = P4H3;
-ValeurCmp = CONN_1;
-IdModule  = PINTST;
 EndCmp
 
 BeginCmp

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tuesday, 08 October, 2013 01:34:04 pm
+EESchema Schematic File Version 2  date Wednesday, 09 October, 2013 12:51:55 pm
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
 Title "Hall Sensor"
-Date "8 oct 2013"
+Date "9 oct 2013"
 Rev "20131007"
 Comp "ClothBot Designs"
 Comment1 ""
@@ -298,49 +298,4 @@ F 3 "" H 5600 3650 60  0000 C CNN
 $EndComp
 Text Label 5650 3900 0    60   ~ 0
 hall1_out
-$Comp
-L CONN_1 P1H1
-U 1 1 5253FAF6
-P 6150 3450
-AR Path="/5253F986/5253FAF6" Ref="P1H1"  Part="1" 
-AR Path="/525400B0/5253FAF6" Ref="P1"  Part="1" 
-AR Path="/52541483/5253FAF6" Ref="P1"  Part="1" 
-AR Path="/52541488/5253FAF6" Ref="P1"  Part="1" 
-F 0 "P1H1" H 6230 3450 40  0000 L CNN
-F 1 "CONN_1" H 6150 3505 30  0001 C CNN
-F 2 "" H 6150 3450 60  0000 C CNN
-F 3 "" H 6150 3450 60  0000 C CNN
-	1    6150 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1 P1H2
-U 1 1 5253FB05
-P 6150 3650
-AR Path="/5253F986/5253FB05" Ref="P1H2"  Part="1" 
-AR Path="/525400B0/5253FB05" Ref="P2"  Part="1" 
-AR Path="/52541483/5253FB05" Ref="P2"  Part="1" 
-AR Path="/52541488/5253FB05" Ref="P2"  Part="1" 
-F 0 "P1H2" H 6230 3650 40  0000 L CNN
-F 1 "CONN_1" H 6150 3705 30  0001 C CNN
-F 2 "" H 6150 3650 60  0000 C CNN
-F 3 "" H 6150 3650 60  0000 C CNN
-	1    6150 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1 P1H3
-U 1 1 5253FB14
-P 6150 3900
-AR Path="/5253F986/5253FB14" Ref="P1H3"  Part="1" 
-AR Path="/525400B0/5253FB14" Ref="P3"  Part="1" 
-AR Path="/52541483/5253FB14" Ref="P3"  Part="1" 
-AR Path="/52541488/5253FB14" Ref="P3"  Part="1" 
-F 0 "P1H3" H 6230 3900 40  0000 L CNN
-F 1 "CONN_1" H 6150 3955 30  0001 C CNN
-F 2 "" H 6150 3900 60  0000 C CNN
-F 3 "" H 6150 3900 60  0000 C CNN
-	1    6150 3900
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
